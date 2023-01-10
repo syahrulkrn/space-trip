@@ -40,11 +40,12 @@ section .title {
   display: flex;
   flex-direction: column;
   padding-bottom: 150px;
+  padding-right: 100px;
   justify-content: center;
 }
 
 .dots .dot {
-  position: relative;
+  /* position: relative; */
   display: flex;
   margin-bottom: 10px;
   width: 80px;
@@ -52,8 +53,8 @@ section .title {
   border: 1px solid white;
   border-radius: 50%;
   font-size: 32px;
-  left: 165px;
-  top: 150px;
+  /* left: 165px;
+  top: 150px; */
   justify-content: center;
   align-items: center;
   cursor: pointer;
@@ -61,3 +62,48 @@ section .title {
 .dots .dot:hover {
   background-color: #292c34;
 }
+
+.dots .dot:active {
+  background-color: white;
+}
+
+.content-wrapper {
+  display: flex;
+  margin-top: 130px;
+  margin-left: 160px;
+}
+
+.content {
+  margin-top: 30px;
+}
+
+.content p {
+  margin-bottom: -30px;
+  color: #d0d6f9;
+}
+
+.content .title-tech {
+  font-size: 56px;
+  margin-bottom: 20px;
+  color: white;
+  text-transform: uppercase;
+}
+
+.content .description {
+  width: 444px;
+  line-height: 32px;
+}
+
+.content-wrapper img {
+  position: absolute;
+  width: 515px;
+  height: 527px;
+  left: 925px;
+  top: 272px;
+}
+
+.content-wrapper .dots .dot.active {
+  background-color: #fff;
+  color: black;
+}
+

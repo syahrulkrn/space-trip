@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed&family=Bellefair&display=swap');
+* {
+  overflow-x: hidden;
+  color: white;
+  font-family: 'Bellefair', serif;
+}
+
+header .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-right: 150px;
+  margin-left: 150px;
+  margin-top: 50px;
+}
+
+header img {
+  position: absolute;
+  left: 55px;
+}
+
+header nav ul {
+  display: flex;
+  gap: 48px;
+}
+
+ul {
+  list-style: none;
+}
+
+header nav ul li a {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: white;
+  text-transform: uppercase;
+}
+
+li {
+  position: relative;
+}
+
+header nav ul li a b {
+  margin-right: 20px;
+}
+
+header .blur-back {
+  background: rgba (255, 255, 255, 0.04);
+  width: 830px;
+  height: 96px;
+  backdrop-filter: blur(81.5485px);
+  top: -90px;
+  left: 610px;
+  position: relative;
+  z-index: -99;
+}
+
+header .line {
+  background: white;
+  width: 473px;
+  height: 1px;
+  position: relative;
+  left: 28px;
+  opacity: 25%;
+}
+header a:hover {
+  border-bottom: 2px solid white;
+  transition: 0.3s linear;
+  opacity: 30%;
+}
+header a.active {
+  border-bottom: 2px solid white;
+}
+/* end of navbar */
+
+section {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.landing {
+  background-image: url(./assets/home/background-home-desktop.jpg);
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  z-index: -999;
+  width: 1440px;
+  height: 900px;
+}
+
+section .container {
+  display: flex;
+}
+
+section .content-text {
+  position: absolute;
+  left: 165px;
+  top: 0;
+  overflow: hidden;
+}
+section .circle {
+  width: 274px;
+  height: 274px;
+  background-color: white;
+  border-radius: 70%;
+  align-items: center;
+  position: absolute;
+  left: 1000px;
+  top: 450px;
+}
+
+section .circle p {
+  text-align: center;
+  align-items: center;
+  position: relative;
+  top: 95px;
+  font-size: 32px;
+}
+
+section .content-text {
+  position: absolute;
+  top: 250px;
+}
+
+section .content-text .description {
+  font-family: 'Barlow Condensed', sans-serif;
+  font-size: 18px;
+  line-height: 32px;
+  color: #d0d6f9;
+  position: absolute;
+  top: 330px;
+  letter-spacing: 1.4px;
+}
+
+section .content-text .travel {
+  font-family: 'Barlow Condensed', sans-serif;
+  position: absolute;
+  top: 70px;
+  letter-spacing: 4.75px;
+  font-size: 28px;
+}

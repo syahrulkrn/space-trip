@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed&family=Bellefair&display=swap');
+* {
+  overflow-x: hidden;
+  color: white;
+  font-family: 'Bellefair', serif;
+}
+
+a {
+  cursor: pointer;
+}
+
+section {
+  width: 100vw;
+  min-height: 100vh;
+  position: absolute;
+  top: 0;
+  left: 0;
+  overflow-y: hidden;
+}
+.landing {
+  background-image: url(./assets/destination/background-destination-desktop.jpg);
+  position: absolute;
+  width: 100%;
+  height: 900px;
+  z-index: -999;
+}
+
+.lineBottom {
+  border-bottom: 1px solid white;
+  width: 10px;
+}
+
+section .title {
+  display: flex;
+  position: absolute;
+  top: 212px;
+  left: 166px;
+  font: 28px;
+  align-items: center;
+  gap: 28px;
+  font-size: 28px;
+  font-family: 'Barlow Condensed', sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+}
+
+section .container {
+  display: flex;
+  position: absolute;
+  top: 350px;
+  left: 230px;
+}
+
+section .container nav ul {
+  display: flex;
+  gap: 36px;
+  margin-top: -15px;
+  margin-left: 110px;
+  size: 16px;
+  font-family: 'Barlow Condensed', sans-serif;
+  text-transform: uppercase;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+section b {
+  opacity: 25%;
+}
+
+.planet-photo {
+  width: 445px;
+  height: 445px;
+  margin-top: 30px;
+}
+
+section .planet {
+  font-size: 110px;
+  margin-left: 145px;
+  text-transform: uppercase;
+}
+
+section .planet-desc {
+  margin-left: 155px;
+  font-size: 18px;
+  line-height: 32px;
+  font-family: 'Barlow Condensed', sans-serif;
+  letter-spacing: 1px;
+  color: #d0d6f9;
+}
+
+section .container-distance {
+  display: flex;
+  gap: 86px;
+  position: relative;
+  left: 155px;
+  top: 50px;
+}
+
+section .line {
+  background: white;
+  width: 600px;
+  height: 1px;
+  position: relative;
+  left: 155px;
+  top: 30px;
+  opacity: 25%;
+}
+
+section .distance-text .distance .distance-time {
+  font-size: 28px;
+}
+
+section .distance-text p {
+  font-size: 14px;
+}
+
+section .distance-text {
+  text-transform: uppercase;
+}
+li {
+  position: relative;
+}
+
+section a:hover {
+  border-bottom: 2px solid white;
+  transition: 0.3s linear;
+  opacity: 30%;
+}
+
+.active {
+  border-bottom: 2px solid white;
+}
